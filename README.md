@@ -23,9 +23,9 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   - 1.Geographical Information SCIENCE
     - Scientific discipline
   - 2.Geographical Information SYSTEMS
-    - Software | General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
+    - Software / General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
     - Built-in systems
-    - Frameworks | libraries for data manipulation, visualization...
+    - Frameworks / libraries for data manipulation, visualization...
 - **Cartography**
   - "Drawing" maps of geographical space
   - more "conservative" term
@@ -42,10 +42,10 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
     - Formats - png, tiff, jpg...
     - Spatially continuous information - satellite images, elevation, land cover, heatmaps
   - **Vector data**
-    - Defined by coordinates | mathematically
+    - Defined by coordinates / mathematically
     - Formats - shp, geojson, pdf, svg
     - Topology - points, lines, polygons
-    - Spatially discrete information - points of interest, rivers | streets | borders, regions
+    - Spatially discrete information - points of interest, rivers / streets / borders, regions
 - Layers
 
 ### Spatial Analysis
@@ -56,6 +56,8 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 -
 
 ### Visualization Basics
+
+- Graphical variable
 
 ### Geospatial technologies
 
@@ -89,7 +91,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   - Data quality (validity, uncertainty, incompleteness)
   - Preferences in qualitative approaches
   - Untrust to the generalization process ?
-  - Statistical | Mathematical | Programming skills required
+  - Statistical / Mathematical / Programming skills required
 
 - Relevant practical GIS tasks in the area of Digital Humanities
   - Geocoding
@@ -127,4 +129,4 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 - [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html) (Manuel Gimond)
 -
 
-## Homework | Practical Task
+## Homework / Practical Task
