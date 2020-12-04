@@ -14,7 +14,24 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### GIS, Cartography, Geoinformatics, Remote Sensing, Map
 
-- **GIS** = Geographical Information Science, but also Geographical Information Systems
+- **GIS**
+  - ~ Geospatial
+  - 1.Geographical Information SCIENCE
+    - Scientific discipline
+  - 2.Geographical Information SYSTEMS
+    - Software | General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
+    - Built-in systems
+    - Frameworks | libraries for data manipulation, visualization...
+- **Cartography**
+  - "Drawing" maps of geographical space
+  - more "conservative" term
+- **Geoinformatics**
+  - ~ Geomatics
+- **Remote sensing**
+  - Processing satelite images
+
+links
+[national geographic](https://www.nationalgeographic.org/activity/introduction-gis/)
 
 ---
 
@@ -32,7 +49,9 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### GIS data sources
 
-### GIS Analysis
+### Spatial Analysis
+
+- data manipulation and data querying.
 
 ### Visualization Basics
 
@@ -64,6 +83,9 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 - link to the lecture notes https://adammertel.github.io/GIS-and-humanities/
 
----
+### Links
+
+- [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html) (Manuel Gimond)
+- ***
 
 ## Homework | Practical Task
