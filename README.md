@@ -40,13 +40,14 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   - **Raster data**
     - Pixel based
     - Formats - png, tiff, jpg...
-    - Spatially continuous information - satellite images, elevation, land cover, heatmaps
+    - Spatially continuous information - satellite images, elevation, land cover, temperature
   - **Vector data**
     - Defined by coordinates / mathematically
     - Formats - shp, geojson, pdf, svg
     - Topology - points, lines, polygons
     - Spatially discrete information - points of interest, rivers / streets / borders, regions
 - Layers
+-
 
 ### Spatial Analysis
 
@@ -57,7 +58,26 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### Visualization Basics
 
-- Graphical variable
+- Data
+  - Categorical / Qualitative - dominant crop
+  - Numerical / Quantitative - temperature in grades
+  - Boolean - areas with snow
+  - Ordinal - position in a ranking
+- Graphical variables
+  - Size
+  - Shape
+  - Color hue / value / saturation
+  - Orientation
+- Point symbols
+  - Simple
+  - Glyphs
+- Line symbols
+  - Identifications - railroads, trails...
+  - Borders
+  - Movement - arrows
+- Polygons
+  - Regions
+  - Choropleth
 
 ### Geospatial technologies
 
@@ -124,9 +144,12 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 - link to the lecture notes https://adammertel.github.io/GIS-and-humanities/
 
+### Books to read
+
 ### Links and sources
 
-- [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html) (Manuel Gimond)
--
+- Manuel Gimond: [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html)
+- UC Berkeley: [GIS data types: Vector VS Raster](http://gif.berkeley.edu/documents/GIS_Data_Formats.pdf)
+- David J. Buckey: [GIS Introduction](http://planet.botany.uwc.ac.za/nisl/GIS/GIS_primer/index.htm)
 
 ## Homework / Practical Task
