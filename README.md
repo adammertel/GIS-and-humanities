@@ -12,6 +12,10 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   - recommended is the STANDALONE STABLE version
 - internet connection
 
+---
+
+## Theoretical introduction
+
 ### GIS, Cartography, Geoinformatics, Remote Sensing, Map
 
 - **GIS**
@@ -30,32 +34,67 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 - **Remote sensing**
   - Processing satelite images
 
-links
-[national geographic](https://www.nationalgeographic.org/activity/introduction-gis/)
-
----
-
-## Motivation
-
-(Why to be interested in GIS )
-
-### GIS + X
-
-### GIS + Humanitites = Spatial Humanities (Digital Humanities)
-
----
-
-## Theoretical introduction
-
 ### GIS data sources
+
+- Two types of data
+  - **Raster data**
+    - Pixel based
+    - Formats - png, tiff, jpg...
+    - Spatially continuous information - satellite images, elevation, land cover, heatmaps
+  - **Vector data**
+    - Defined by coordinates | mathematically
+    - Formats - shp, geojson, pdf, svg
+    - Topology - points, lines, polygons
+    - Spatially discrete information - points of interest, rivers | streets | borders, regions
+- Layers
 
 ### Spatial Analysis
 
-- data manipulation and data querying.
+- Manipulating data to create a new dataset
+- Map algebra (rasters)
+- Geostatistics
+-
 
 ### Visualization Basics
 
+### Geospatial technologies
+
+- Spatial database systems and Search Engines
+- Web frameworks
+- Specialized scripting libraries and tools
+- Global infrastructures
+
 ### Mathematical Cartography, Geographical Coordinates
+
+---
+
+## Motivation (Why to be interested in GIS?)
+
+### GIS + X
+
+- Every phenomenon that relates to the geographical space
+- There are many fields of human activity that are dependent on GIS.
+  - Meteorology
+  - Transportation
+  - Ecology
+  - Urban planning
+  - Agriculture
+    ...
+
+### GIS (Maps) + Humanitites = Spatial Humanities (Digital Humanities)
+
+- Long tradition of sketching maps in all kind of sciences
+- Constraints preventing the full potential of using GIS in Humanities
+
+  - Data quality (validity, uncertainty, incompleteness)
+  - Preferences in qualitative approaches
+  - Untrust to the generalization process ?
+  - Statistical | Mathematical | Programming skills required
+
+- Relevant practical GIS tasks in the area of Digital Humanities
+  - Geocoding
+  - Georeferencing
+  -
 
 ---
 
@@ -83,9 +122,9 @@ links
 
 - link to the lecture notes https://adammertel.github.io/GIS-and-humanities/
 
-### Links
+### Links and sources
 
 - [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html) (Manuel Gimond)
-- ***
+-
 
 ## Homework | Practical Task
