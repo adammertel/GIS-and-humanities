@@ -2,14 +2,14 @@
 
 ## Outline
 
-- Introduction
-- Theoretical Introduction
+- Introduction to the course
+- Basic theory behind GIS
 - Motivation
 - Practical Example
-- Discussion
 - Homework
+- Discussion
 
-## Introduction
+## Introduction to the course
 
 ### Main Idea
 
@@ -23,7 +23,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ---
 
-## Theoretical Introduction
+## Basic theory behind GIS
 
 ### GIS, Cartography, Geoinformatics, Remote Sensing, Map
 
@@ -310,15 +310,38 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### 6. Export and create the map composition
 
+- `New layout` (Ctrl + P) -> Enter name
+- Add map components to the layout - title, texts, images, scales, legend...
+  - Try to explain "What information are you want to give to the readers", "What and who is behind the dataset", "What is the main idea of the map"...
+
+<figure class="image">
+  <img src="./pictures/layout1.png" height="auto" />
+</figure>
+<figure class="image">
+  <img src="./pictures/layout2.png" height="auto" />
+</figure>
+<figure class="image">
+  <img src="./pictures/layout3.png" height="auto" />
+</figure>
+<figure class="image">
+  <img src="./pictures/layout4.png" height="auto" />
+</figure>
+
 ---
+
+## Homework
+
+- Create a map composition in QGIS to display your spatial (point-based) dataset
+  - Data can be real or fictive... but there has to be a "logic" (a "connection" to the real life) behind them
+  - Before creating the map, think about the main idea (spatial pattern) that you want to communicate. And based on this,choose the visualization method and other map components wisely
+  - After you create the map - show it to someone without any explanation to see whether he/she understands your "message". If not, think about a better way to communicate that "message"
+  - At the end - add a free-text to the map composition (or next to it) where you describe the map, the dataset, and the reasoning behind that process(3-5 sentences...).
 
 ## Discussion
 
 ### Aditional information
 
 - link to the lecture notes https://adammertel.github.io/GIS-and-humanities/
-
-### Books to read
 
 ### Links and Sources
 
@@ -332,5 +355,3 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 - Jim Vallandingham: [vallandingham.me blog](https://vallandingham.me/)
 - Stanford University: [Center for Spatial and Textual Analysis](https://cesta.stanford.edu/)
 - University of Virginia Library: [Spatial Humanities Scholars lab](https://spatial.scholarslab.org)
-
-## Homework / Practical Task
