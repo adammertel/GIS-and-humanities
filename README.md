@@ -29,7 +29,7 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 - **GIS**
 
   - An equivalent to "Geospatial"
-  - **1.Geographical Information SCIENCE**
+  - **Geographical Information SCIENCE**
 
     - Scientific discipline
 
@@ -38,16 +38,16 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
       <i><figcaption>GIS illustration. Taken from <a href="www.esri.com/news/arcnews/winter0809articles/gis-geography-in-action.html">ESRI blog</a>.</figcaption></i>
     </figure >
 
-  - **2.Geographical Information SYSTEMS**
+  - **Geographical Information SYSTEMS**
 
-        - Software / General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
-        - Built-in systems
-        - Frameworks / libraries for data manipulation, visualization...
+    - Software / General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
+    - Built-in systems
+    - Frameworks / libraries for data manipulation, visualization...
 
-        <figure class="image">
-          <img src="./pictures/arcgis.jpg" height="auto" />
-          <i><figcaption>ArcGIS software random screenshot. Taken from <a href="https://www.youtube.com/watch?v=UZDGcIjLISI">Youtube</a>.</figcaption></i>
-        </figure >
+    <figure class="image">
+        <img src="./pictures/arcgis.jpg" height="auto" />
+        <i><figcaption>ArcGIS software random screenshot. Taken from <a href="https://www.youtube.com/watch?v=UZDGcIjLISI">Youtube</a>.</figcaption></i>
+    </figure >
 
 - **Cartography**
 
@@ -122,9 +122,9 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
   <i><figcaption>Map by Dr. John Snow of London, showing clusters of cholera cases in the 1854 Broad Street cholera outbreak. Taken from <a href="https://en.wikipedia.org/wiki/Spatial_analysis">wikipedia</a>.</figcaption></i>
 </figure >
 
-### Visualization Basics
+### Visualization of Spatial Data
 
-- **Data**
+- **Attribute types**
 
   - Categorical / Qualitative - dominant crop in the region, name of the local mayor, type of transportation
   - Numerical / Quantitative - average annual temperature, population number
@@ -195,6 +195,7 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 - Transformation of the Earth's globe surface into a flat plane with the system of mathematical equations
 - This way, we can define every position on the planet / in a region
 - WGS (World Geodetic System) - a system of XY coordinates
+- [Cartographic projections playground](https://observablehq.com/@vega/vega-lite-cartographic-projections)
 
   <img src="./pictures/wgs.png" height="auto"/>
 
