@@ -28,8 +28,8 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 
 - **GIS**
 
-  - ~ Geospatial
-  - 1.Geographical Information SCIENCE
+  - An equivalent to "Geospatial"
+  - **1.Geographical Information SCIENCE**
 
     - Scientific discipline
 
@@ -38,22 +38,22 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
       <i><figcaption>GIS illustration. Taken from <a href="www.esri.com/news/arcnews/winter0809articles/gis-geography-in-action.html">ESRI blog</a>.</figcaption></i>
     </figure >
 
-  - 2.Geographical Information SYSTEMS
+  - **2.Geographical Information SYSTEMS**
 
-    - Software / General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
-    - Built-in systems
-    - Frameworks / libraries for data manipulation, visualization...
+        - Software / General tools - [ArcGIS](https://www.arcgis.com/index.html), [QGIS](<(https://www.qgis.org/en/site/)>)
+        - Built-in systems
+        - Frameworks / libraries for data manipulation, visualization...
 
-    <figure class="image">
-      <img src="./pictures/arcgis.jpg" height="auto" />
-      <i><figcaption>ArcGIS software random screenshot. Taken from <a href="https://www.youtube.com/watch?v=UZDGcIjLISI">Youtube</a>.</figcaption></i>
-    </figure >
+        <figure class="image">
+          <img src="./pictures/arcgis.jpg" height="auto" />
+          <i><figcaption>ArcGIS software random screenshot. Taken from <a href="https://www.youtube.com/watch?v=UZDGcIjLISI">Youtube</a>.</figcaption></i>
+        </figure >
 
 - **Cartography**
 
-  - "Drawing" maps of geographical space
-  - more "conservative" term
-  - mathematical cartography, visualization, theoretical cartography
+  - "Drawing" and understanding maps - a depiction of the geographical space
+  - More historical term
+  - Mathematical cartography (how to transform globe to the map), visualization (what is the best way to "draw" our data), theoretical cartography
 
     <figure class="image">
       <img src="./pictures/komensky.jpg" height="auto" />
@@ -62,10 +62,10 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 
 - **Geoinformatics**
 
-  - ~ Geomatics
-  - heavy use of IT
-  - scripting the methods
-  - geospatial data analysis, web-based maps, localization services
+  - An equivalent to "Geomatics"
+  - Heavy use of IT
+  - Scripting the methods
+  - Spatial data analysis (processing geospatial data), web-based maps (map web applications), Localization services (GPS)
 
     <figure class="image">
       <img src="./pictures/geoinformatics.jpg" height="auto" />
@@ -73,7 +73,11 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
     </figure >
 
 - **Remote sensing**
-  - Processing satelite images
+
+  - Processing images from satellites or airplanes
+  - Application in ecology, agriculture, forest management...
+  - Detection of changes in forest health, estimation damages after a natural disaster
+
     <figure class="image">
       <img src="./pictures/remoteseinsing.png" height="auto" />
       <i><figcaption>Illustration of Remote Sensing process. Taken from <a href="www.flaticon.com">www.flaticon.com</a> and <a href="https://paititi.info/research-technology/remote-sensing-from-space/">Remote sensing from space</a>.</figcaption></i>
@@ -84,11 +88,14 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 - Two types of data
 
   - **Raster data**
-    - Pixel based
+
+    - Pixel-based / image like datasets
     - Formats - png, tiff, jpg...
     - Spatially continuous information - satellite images, elevation, land cover, temperature
-    - Topology: points, lines, polygons
+    - Space is divided into pixels, each pixel holds a value / set of values
+
   - **Vector data**
+
     - Defined by coordinates / mathematically
     - Formats - shp, geojson, pdf, svg
     - Topology - points, lines, polygons
@@ -107,9 +114,8 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 
 ### Spatial Analysis
 
-- Manipulating (filtering, extending, combining) of datasets to create a new dataset
-- Map algebra (rasters) - manipulating values in rasters
-- Geostatistics - using
+- Manipulating (filtering, extending, combining) of spatial datasets to extract new information
+- Detection of hotspots of crime in the city, predicting temperatures in a set of regions
 
 <figure class="image">
   <img src="./pictures/cholera.jpeg" height="auto" />
@@ -222,15 +228,12 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 ### GIS + Humanitites = Spatial Humanities (Digital Humanities)
 
 - Long tradition of sketching maps in all kind of sciences
-- Constraints preventing the full potential of using GIS in Humanities
+- Constraints:
   - Data quality (validity, uncertainty, incompleteness)
   - Preferences in qualitative approaches
   - Untrust to the process of generalization (?)
   - Statistical / Mathematical / Programming skills required
   - ...
-- Relevant practical GIS tasks in the area of Digital Humanities
-  - Geocoding
-  - Georeferencing
 
 <figure class="image">
   <img src="./pictures/zemlicka.png" height="auto" />
@@ -244,6 +247,9 @@ This webpage is an auxiliary material to the lecture "Spatial data in Humanities
 ---
 
 ## Practical Example
+
+- [QGIS manual](https://docs.qgis.org/3.16/en/docs/training_manual/index.html)
+- [Czech QGIS tutorial by GISMentors](https://training.gismentors.eu/qgis-zacatecnik/)
 
 ### 1. Create point-layer dataset and export it as .csv
 
