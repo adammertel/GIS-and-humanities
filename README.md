@@ -83,6 +83,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 ### GIS data sources
 
 - Two types of data
+
   - **Raster data**
     - Pixel based
     - Formats - png, tiff, jpg...
@@ -93,6 +94,12 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
     - Formats - shp, geojson, pdf, svg
     - Topology - points, lines, polygons
     - Spatially discrete information - points of interest, rivers / streets / borders, regions
+
+  <figure class="image">
+    <img src="./pictures/rastervector.png" height="auto" />
+    <i><figcaption>A graphical depiction of vector and raster layers.</figcaption></i>
+  </figure >
+
 - Layers
   <figure class="image">
     <img src="./pictures/layers.jpg" height="auto" />
@@ -196,6 +203,16 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   - Agriculture
     ...
 
+<figure class="image">
+  <img src="./pictures/transportation.jpg" height="auto" />
+  <i><figcaption>Real time prediction of public transport in the city of Cologne; an example of use of GIS in transportation. Taken from <a href="https://company.ptvgroup.com/fileadmin/Resources/newsroom/Images/Photos_Media_Gallery/PTV_Public_Transport_Cologne.jpg">company.ptvgroup.com</a>.</figcaption></i>
+</figure >
+
+<figure class="image">
+  <img src="./pictures/meteorology.png" height="auto" />
+  <i><figcaption>Visualization of the Aladin model on CHMU website; an example of an use of GIS in meteorology. Taken from <a href="chmu.cz">chmu.cz</a>.</figcaption></i>
+</figure >
+
 ### GIS + Humanitites = Spatial Humanities (Digital Humanities)
 
 - Long tradition of sketching maps in all kind of sciences
@@ -207,7 +224,15 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 - Relevant practical GIS tasks in the area of Digital Humanities
   - Geocoding
   - Georeferencing
-  -
+
+<figure class="image">
+  <img src="./pictures/zemlicka.png" height="auto" />
+  <i><figcaption>A map of central Europe at the beginning of the 13th century, an example of a map created by a researcher in humanities. Taken from Zemlicka 1990.</figcaption></i>
+</figure>
+<figure class="image">
+  <img src="./pictures/orbis.png" height="auto" />
+  <i><figcaption><a href="https://orbis.stanford.edu/">ORBIS</a> application to calculate travelling costs and times in Roman times.</figcaption></i>
+</figure>
 
 ---
 
@@ -246,5 +271,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 - GISGeography: [Degrees/Minutes/Seconds (DMS) vs Decimal Degrees(DD)](https://gisgeography.com/decimal-degrees-dd-minutes-seconds-dms/)
 - University Consortium for GIS: [GIS and T Body of Knowledge](https://gistbok.ucgis.org/)
 - Jim Vallandingham: [vallandingham.me blog](https://vallandingham.me/)
+- Stanford University: [Center for Spatial and Textual Analysis](https://cesta.stanford.edu/)
+- University of Virginia Library: [Spatial Humanities Scholars lab](https://spatial.scholarslab.org)
 
 ## Homework / Practical Task
