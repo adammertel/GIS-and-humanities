@@ -13,13 +13,12 @@
 
 ### Main Idea
 
-This is meant to be a 2 hours course of GIS for humanities students. In the first half, the lecture covers the theoretical basics of cartography, map visualization with a short practical task in the second half
+This webpage is an auxiliary material to the lecture "Spatial data in Humanities.". This lecture is part of the course "ARTS020 - Digital Humanities." which takes place at Masaryk University, Brno, in 2020. This course aims to explain the theoretical basics behind Geographic Information Systems, discuss some examples of their use in Humanities, and provide a short practical example.
 
 ### Requirements
 
-- [QGIS](https://www.qgis.org/en/site/) installed
-  - recommended is the STANDALONE STABLE version
-- internet connection
+- [QGIS](https://www.qgis.org/en/site/) application installed
+  - STANDALONE STABLE version is recommended
 
 ---
 
@@ -54,7 +53,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
   - "Drawing" maps of geographical space
   - more "conservative" term
-  - mathematical cartography, visualization, theoretical cartography...
+  - mathematical cartography, visualization, theoretical cartography
 
     <figure class="image">
       <img src="./pictures/komensky.jpg" height="auto" />
@@ -66,7 +65,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   - ~ Geomatics
   - heavy use of IT
   - scripting the methods
-  - geospatial data analysis, web-based maps, localisatio services
+  - geospatial data analysis, web-based maps, localization services
 
     <figure class="image">
       <img src="./pictures/geoinformatics.jpg" height="auto" />
@@ -100,7 +99,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
     <i><figcaption>A graphical depiction of vector and raster layers.</figcaption></i>
   </figure >
 
-- Layers
+- **Layers**
   <figure class="image">
     <img src="./pictures/layers.jpg" height="auto" />
     <i><figcaption>GIS layers.</figcaption></i>
@@ -119,12 +118,14 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### Visualization Basics
 
-- Data
-  - Categorical / Qualitative - dominant crop
-  - Numerical / Quantitative - temperature in grades
+- **Data**
+
+  - Categorical / Qualitative - dominant crop in the region, name of the local mayor, type of transportation
+  - Numerical / Quantitative - average annual temperature, population number
   - Boolean - areas with snow
   - Ordinal - position in a ranking
-- Graphical variables
+
+- **Graphical variables**
   - Size
   - Shape
   - Color hue / value / saturation
@@ -135,9 +136,9 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   <i><figcaption> Visual variables and their ideal use, by Bertin.</figcaption></i>
 </figure >
 
-- Point symbols
-  - Simple
-  - Glyphs
+- **Point symbols**
+  - Simple - mostly just a symbol that communicates a single value through its size, color, or shape
+  - Glyphs - one symbol "communicates" more variables; a complex system of symbolization
 
 <figure class="image">
   <img src="./pictures/dots.png" height="auto" />
@@ -148,19 +149,20 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   <i><figcaption>Example of a map using a multivariate point symbols. Taken from <a href="https://projecteuclid.org/download/pdfview_1/euclid.ss/1199285037">A.-M. Guerry’sMoral Statistics of France: Challenges for MultivariableSpatial Analysis</a>.</figcaption></i>
 </figure >
 
-- Line symbols
+- **Line symbols**
 
-  - Identifications - railroads, trails...
-  - Borders
-  - Movement - arrows
+  - Identifications - the feature is generalized by the line; railroads, trails, rivers
+  - Borders - the feature is enclosed by the line; regions, areas
+  - Movement - the line symbol (arrow) shows the angle that important for the understanding of the feature; wind movement, migration
+
   <figure class="image">
     <img src="./pictures/metro.jpeg" height="auto" />
     <i><figcaption>Map of metro in Bratislava. Taken from <a href="https://i.redd.it/y7u87gu5px021.jpg">Reddit</a>.</figcaption></i>
   </figure >
 
-- Polygons
-  - Regions
-  - Choropleth
+- **Polygons**
+  - Regions - all features are on the same level of importance, we just need to define their position; a simple political map
+  - Choropleth - features are visualized to represent a quantitative variable
 
 <figure class="image">
   <img src="./pictures/demography.jpg" height="auto" />
@@ -172,7 +174,11 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
   <i><figcaption>Europe according to Culinary horror 2013; example of polygons as regions. Taken from <a href="hhttps://atlasofprejudice.com/our-collective-eating-disorder-4846eede37bd">Atlas of Prejudice</a>.</figcaption></i>
 </figure >
 
-- 3D
+- **Heatmap**
+
+  - display the intensity of the phenomenon in space
+
+- **3D**
 <figure class="image">
   <img src="./pictures/cows.jpeg" height="auto" />
   <i><figcaption> World of cows. Taken from <a href="https://twitter.com/mbeisen/status/1333985436042104832/photo/1">Twitter</a>.</figcaption></i>
@@ -180,7 +186,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### Mathematical Cartography, Geographical Coordinates
 
-- Transformation of the Earth`s globe surface into a flat plane with the system of mathematical equations
+- Transformation of the Earth's globe surface into a flat plane with the system of mathematical equations
 - This way, we can define every position on the planet / in a region
 - WGS (World Geodetic System) - a system of XY coordinates
 
@@ -219,8 +225,9 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 - Constraints preventing the full potential of using GIS in Humanities
   - Data quality (validity, uncertainty, incompleteness)
   - Preferences in qualitative approaches
-  - Untrust to the generalization process ?
+  - Untrust to the process of generalization (?)
   - Statistical / Mathematical / Programming skills required
+  - ...
 - Relevant practical GIS tasks in the area of Digital Humanities
   - Geocoding
   - Georeferencing
@@ -241,9 +248,10 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 ### 1. Create point-layer dataset and export it as .csv
 
 - Create a new table in MS Excel, LibreOffice Calc, Google Spreadsheets...
-- Rows are records, columns are variables
-- Two columns for geographic coordinates - name it e.g., X and Y
+- Rows are records; columns are variables
+- Two columns for geographic coordinates - X and Y
 - Define value domains for each column - e.g., column "label" is a text, column "certainty" is a boolean (TRUE, FALSE values), and column "price" is a number
+- Fill the values for each record based on the defined domains
 
 <figure class="image">
   <img src="./pictures/csv.png" height="auto" />
@@ -282,7 +290,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### 4. Select symbolization
 
-- Right click on the layer in the `Layers` panel -> `Properties` -> `Symbolization`
+- Right-click on the layer in the `Layers` panel -> `Properties` -> `Symbolization`
 - There are several visualization methods to use
   - most basic methods: Graduated (Quantitative data) and Categorized (Qualitative Data)
 - Different possibilities for Vector and Raster data
@@ -312,7 +320,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 - `New layout` (Ctrl + P) -> Enter name
 - Add map components to the layout - title, texts, images, scales, legend...
-  - Try to explain "What information are you want to give to the readers", "What and who is behind the dataset", "What is the main idea of the map"...
+  - Try to explain, "What information do you want to give to the readers." Ideally, try to show something that would be "hidden" without the map
 
 <figure class="image">
   <img src="./pictures/layout1.png" height="auto" />
@@ -332,10 +340,10 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 ## Homework
 
 - Create a map composition in QGIS to display your spatial (point-based) dataset
-  - Data can be real or fictive... but there has to be a "logic" (a "connection" to the real life) behind them
-  - Before creating the map, think about the main idea (spatial pattern) that you want to communicate. And based on this,choose the visualization method and other map components wisely
-  - After you create the map - show it to someone without any explanation to see whether he/she understands your "message". If not, think about a better way to communicate that "message"
-  - At the end - add a free-text to the map composition (or next to it) where you describe the map, the dataset, and the reasoning behind that process(3-5 sentences...).
+  - Data can be real or fictive... but there has to be a "logic" (a "connection" to real-life) behind them
+  - Before creating the map, think about the main idea (spatial pattern) you want to communicate. And based on this, choose the visualization method and other map components wisely
+  - After you create the map - show it to someone without any explanation to see whether he/she understands your "message". If not, think about a better way to communicate that "message."
+  - At the end - add a free-text to the map composition (or next to it) where you describe the map, the dataset, and the reasoning behind that process (3-5 sentences...).
 
 ## Discussion
 
