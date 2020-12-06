@@ -231,26 +231,84 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 </figure>
 <figure class="image">
   <img src="./pictures/orbis.png" height="auto" />
-  <i><figcaption><a href="https://orbis.stanford.edu/">ORBIS</a> application to calculate travelling costs and times in Roman times.</figcaption></i>
+  <i><figcaption><a href="https://orbis.stanford.edu/">ORBIS</a> application that calculates travelling costs and times in the Roman times.</figcaption></i>
 </figure>
 
 ---
 
 ## Practical Example
 
-### QGIS Introduction
+### 1. Create point-layer dataset and export it as .csv
 
-### Geocoding
+- Create a new table in MS Excel, LibreOffice Calc, Google Spreadsheets...
+- Rows are records, columns are variables
+- Two columns for geographic coordinates - name it e.g., X and Y
+- Define value domains for each column - e.g., column "label" is a text, column "certainty" is a boolean (TRUE, FALSE values), and column "price" is a number
 
-### Importing Data
+<figure class="image">
+  <img src="./pictures/csv.png" height="auto" />
+</figure>
 
-### Base Layers
+### 2. Import .csv dataset into QGIS
 
-### Other Data Sources
+- Run QGIS and create a new Project
+- `Open Data Source Manager` (Ctrl + L) and choose `Delimited Text`
+- Select the .csv file into the first input (`File Name`)
 
-### Symbolization
+<figure class="image">
+  <img src="./pictures/importcsv.png" height="auto" />
+</figure>
 
-### Export
+### 3. Add base layers
+
+- list of available XYTiles:
+  - https://wiki.openstreetmap.org/wiki/Tile_servers
+  - https://qms.nextgis.com/#
+  - https://www.spatialbias.com/2018/02/qgis-3.0-xyz-tile-layers/
+  - https://leaflet-extras.github.io/leaflet-providers/preview/
+    - replace {s} with `subdomains` value
+  - https://geoportal.cuzk.cz/
+    - WMS / WMTS
+    - `Služby` -> `Prohlížení`
+- some base layers need an additional authentification (`apikey`), some are "down", some are very "slow"
+- recommended to start with OSM `https://tile.openstreetmap.org/{z}/{x}/{y}.png`
+
+<figure class="image">
+  <img src="./pictures/newxytile.png" height="auto" />
+</figure>
+<figure class="image">
+  <img src="./pictures/leafletproviders.png" height="auto" />
+</figure>
+
+### 4. Select symbolization
+
+- Right click on the layer in the `Layers` panel -> `Properties` -> `Symbolization`
+- There are several visualization methods to use
+  - most basic methods: Graduated (Quantitative data) and Categorized (Qualitative Data)
+- Different possibilities for Vector and Raster data
+
+<figure class="image">
+  <img src="./pictures/graduated.png" height="auto" />
+</figure>
+
+<figure class="image">
+  <img src="./pictures/categorized.png" height="auto" />
+</figure>
+
+<figure class="image">
+  <img src="./pictures/combined.png" height="auto" />
+</figure>
+
+### 5. Labels
+
+- Right click on the layer in the `Layers` panel -> `Properties` -> `Labels`
+- Choose `Single labels` and select the label attribute in the `Value` form
+
+<figure class="image">
+  <img src="./pictures/labels.png" height="auto" />
+</figure>
+
+### 6. Export and create the map composition
 
 ---
 
@@ -264,6 +322,7 @@ This is meant to be a 2 hours course of GIS for humanities students. In the firs
 
 ### Links and Sources
 
+- QGIS: [A Gentle Introduction to GIS](https://docs.qgis.org/3.10/en/docs/gentle_gis_introduction/)
 - Manuel Gimond: [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html)
 - UC Berkeley: [GIS data types: Vector VS Raster](http://gif.berkeley.edu/documents/GIS_Data_Formats.pdf)
 - David J. Buckey: [GIS Introduction](http://planet.botany.uwc.ac.za/nisl/GIS/GIS_primer/index.htm)
