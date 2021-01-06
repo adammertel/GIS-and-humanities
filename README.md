@@ -13,7 +13,7 @@
 
 ### Main Idea
 
-This webpage is an auxiliary material to the lecture "Spatial data in Humanities.". This lecture is part of the course "ARTS020 - Digital Humanities." which takes place at Masaryk University, Brno, in 2020. This course aims to explain the theoretical basics behind Geographic Information Systems, discuss some examples of their use in Humanities, and provide a short practical example.
+This webpage is an auxiliary material to the lecture __Spatial data in Humanities__. This lecture is part of the course __ARTS020 - Digital Humanities__ that took place at Masaryk University, Brno, in 2020. This course aims to explain the theoretical basics behind Geographic Information Systems, discuss some examples of their use in Humanities, and provide a short practical example.
 
 ### Requirements
 
