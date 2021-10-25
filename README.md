@@ -347,10 +347,11 @@ This webpage is an auxiliary material to the lecture __Spatial data in Humanitie
 ## Homework
 
 - Create a map composition in QGIS to display your spatial (point-based) dataset
-  - Data can be real or fictive... but there has to be a "logic" (a "connection" to real-life) behind them
+  - Its recommended to use any graphical editor (yes, also MS Paint) to finish the composition
+  - Data should come from your study, research, your interest - anything that you have some insight into. This insight is crucial for interpreting the map.
   - Before creating the map, think about the main idea (spatial pattern) you want to communicate. And based on this, choose the visualization method and other map components wisely
   - After you create the map - show it to someone without any explanation to see whether he/she understands your "message". If not, think about a better way to communicate that "message."
-  - At the end - add a free-text to the map composition (or next to it) where you describe the map, the dataset, and the reasoning behind that process (3-5 sentences...).
+  - At the end - add a free-form text to the map composition where you describe the map, the dataset, and the reasoning behind that process (3-5 sentences...).
 
 ## Discussion
 
